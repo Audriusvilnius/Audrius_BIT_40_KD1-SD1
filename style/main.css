@@ -1,15 +1,33 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    border: red solid 1px;
+    padding: 50px;
+}
 body{
     background-color: #eaebed;
 }
-.errorno{
+.connteiner{
+    justify-content: center;
+    border: red solid 1px;
+}
+.errorno{    
+    align-items: inherit;
     color: #333d47;
+    font-size: 50px;
+    border: red solid 1px;
+    
+
 }
 .message1{
     color: #626478;
+    border: red solid 1px;
 }
 .message2{
     color: #7e818d;
+    border: red solid 1px;
 }
 .bottom{
     background-color:#696e8b;
+    border: red solid 1px;
 }
