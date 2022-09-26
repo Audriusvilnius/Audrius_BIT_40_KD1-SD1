@@ -1,0 +1,24 @@
+{
+  "name": "audrius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=4003 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Audriusvilnius/Audrius.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Audriusvilnius/Audrius/issues"
+  },
+  "homepage": "https://github.com/Audriusvilnius/Audrius#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
