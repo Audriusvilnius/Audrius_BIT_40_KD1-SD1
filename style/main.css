@@ -3,11 +3,10 @@ body{
     background-color: #eaebed;
     text-align:center; /*tekstas centre*/
     margin: auto; 
-    border: red solid 1px;
-    
+
 }
 .main{
-    border: red solid 1px;
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 5%;
@@ -15,29 +14,28 @@ body{
 }
 .connteiner{
     justify-content: center;
-    border: red solid 1px;
 }
 .errorno{    
     align-items: inherit;
     color: #333d47;
     font-size: 60px;
-    border: red solid 1px;
+ 
 }
 .message1{
     color: #626478;
     font-family: Tahoma;
     font-size: 25px;
     font-weight: bolder;
-    border: red solid 1px;
+
 }
 .message2{
     color: #7e818d;
     font-size: 15px; 
-    border: red solid 1px;
+
 }
 .bottom{
     background-color:#696e8b;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     margin: auto;
     max-width: 200px;
     height: 40px;
