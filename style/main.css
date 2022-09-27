@@ -2,10 +2,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     border: red solid 1px;
-    padding: 50px;
+    padding: 50px 50px;
 }
 body{
+    
     background-color: #eaebed;
+    text-align:center; /*tekstas centre*/
+    margin: auto;
 }
 .connteiner{
     justify-content: center;
@@ -14,23 +17,30 @@ body{
 .errorno{    
     align-items: inherit;
     color: #333d47;
-    font-size: 70px;
+    font-size: 60px;
     border: red solid 1px;
-    
-
 }
 .message1{
     color: #626478;
     font-family: Tahoma;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bolder;
     border: red solid 1px;
+    
 }
 .message2{
     color: #7e818d;
-    font-size: 20px;
+    font-size: 15px;
     border: red solid 1px;
+    ;
 }
 .bottom{
     background-color:#696e8b;
+    color: white;
     border: red solid 1px;
+    margin: auto;
+    max-width: 200px;
+    height: 40px;
+    margin-block: 30px
+    
 }
