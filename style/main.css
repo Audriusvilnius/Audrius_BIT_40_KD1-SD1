@@ -14,17 +14,20 @@ body{
 .errorno{    
     align-items: inherit;
     color: #333d47;
-    font-size: 50px;
+    font-size: 70px;
     border: red solid 1px;
     
 
 }
 .message1{
     color: #626478;
+    font-family: Tahoma;
+    font-size: 30px;
     border: red solid 1px;
 }
 .message2{
     color: #7e818d;
+    font-size: 20px;
     border: red solid 1px;
 }
 .bottom{
