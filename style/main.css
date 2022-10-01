@@ -39,6 +39,7 @@ body{
     margin: auto;
     max-width: 200px;
     height: 40px;
-    align-content: center;
+    text-align: center;
+    padding-top: 20px;
     
 }
