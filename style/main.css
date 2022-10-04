@@ -1,13 +1,12 @@
 body{
     display: inline; 
-    /* width: 50%; */
     background-color: #eaebed;
-    text-align:center; /*tekstas centre*/
+    text-align:center; 
+    font-family: Tahoma;
     margin: auto; 
 
 }
 .main{
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 5%;
@@ -16,7 +15,12 @@ body{
 .connteiner{
     justify-content: center;
 }
-.errorno{    
+.image{
+    object-fit: contain;
+    object-position: top left;
+    object-fit: cover;
+}
+.error{    
     align-items: inherit;
     color: #333d47;
     font-size: 60px;
@@ -24,7 +28,6 @@ body{
 }
 .message1{
     color: #626478;
-    font-family: Tahoma;
     font-size: 25px;
     font-weight: bolder;
 
@@ -36,11 +39,15 @@ body{
 }
 .bottom{
     background-color:#696e8b;
-    /* border: red solid 1px; */
     margin: auto;
-    max-width: 200px;
-    height: 40px;
+    max-width: 120px;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
     
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: large;
 }
